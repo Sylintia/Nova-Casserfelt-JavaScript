@@ -1,12 +1,24 @@
 header {
     background-color: rgb(255, 198, 206);
-    padding: 130px;
+    height: 5%;
     color: white;
+
 }
 
 .container{
     display: flex;
     justify-content: space-evenly;
-    padding-right: 4%;
+    height: 1%;
     text-align: center;
+}
+
+div {
+    height: 4%;
+}
+
+.Bottom {
+    display: flex;
+    background-color: rgb(158, 158, 158);
+    height: 2%;
+    color: white;
 }

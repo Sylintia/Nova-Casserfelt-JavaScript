@@ -1,0 +1,14 @@
+header{
+    background-color: rgb(255, 198, 206);
+    color: white;
+    height: 3%;
+}
+
+.container {
+    display: flex;
+}
+
+.Item {
+    width: 100px;
+    background-color: rgb(219, 219, 219);
+}
