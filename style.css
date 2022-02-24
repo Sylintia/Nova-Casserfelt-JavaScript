@@ -1,6 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 header {
     background-color: rgb(255, 198, 206);
-    height: 5%;
+    padding: 5%;
     color: white;
 
 }
@@ -12,13 +17,25 @@ header {
     text-align: center;
 }
 
-div {
-    height: 4%;
+.middle {
+    padding: 2%;
+    color: gray;
+    text-decoration: none;
 }
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.text {
+    display: flex;
+    justify-content: space-between;
+}*/
 
 .Bottom {
     display: flex;
     background-color: rgb(158, 158, 158);
-    height: 2%;
+    padding: 5%;
     color: white;
 }
