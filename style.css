@@ -28,14 +28,16 @@ header {
     justify-content: space-between;
 }
 
-/*.text {
+.Bottom {
+    background-color: rgb(158, 158, 158);
+    padding: 1%;
+    color: white;
+}
+
+.contact {
     display: flex;
     justify-content: space-between;
-}*/
-
-.Bottom {
-    display: flex;
-    background-color: rgb(158, 158, 158);
-    padding: 5%;
-    color: white;
+    padding-right: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
