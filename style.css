@@ -28,7 +28,7 @@ header {
     text-decoration: none;
 }
 
-.space {
+.item {
     display: flex;
     justify-content: space-between;
 }
