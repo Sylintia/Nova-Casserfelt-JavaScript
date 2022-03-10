@@ -20,22 +20,10 @@ header{
     padding-left: 1%;
 }
 
-.middle {
-    padding: 2%;
-    color: gray;
-    text-decoration: none;
-}
-
-.item {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 2%;
-}
-
 .Bottom {
-    background-color: rgb(158, 158, 158);
     padding: 1%;
     color: white;
+    background-color: rgb(158, 158, 158);
 }
 
 .contact {

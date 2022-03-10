@@ -26,10 +26,6 @@ header{
     text-decoration: none;
 }
 
-.button {
-    padding-bottom: 2%;
-}
-
 .item {
     display: flex;
     justify-content: space-between;
