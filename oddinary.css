@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Hubballi&family=Montserrat&family=Raleway:wght@300&family=Roboto+Condensed:wght@300;400&family=Smooch+Sans:wght@100;500&family=Work+Sans:wght@200&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -20,10 +23,31 @@ header{
     padding-left: 1%;
 }
 
+.middle {
+    padding: 4%;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.image {
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part {
+    padding-bottom: 2%;
+}
+
 .Bottom {
+    background-color: rgb(158, 158, 158);
     padding: 1%;
     color: white;
-    background-color: rgb(158, 158, 158);
 }
 
 .contact {
