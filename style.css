@@ -23,14 +23,15 @@ header {
 }
 
 .middle {
+    display: flex;
+    justify-content: center;
     padding: 2%;
-    color: gray;
-    text-decoration: none;
 }
 
-.item {
-    display: flex;
-    justify-content: space-between;
+.changePicture {
+    padding-top: 300px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .Bottom {

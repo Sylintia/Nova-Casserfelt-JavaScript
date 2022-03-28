@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
 </head>
+
 <body>
-    <header> 
+    <header>
         <div class="logo">
             <img src="logo.png" alt="logo" width="">
-        </div>      
+        </div>
         <div class="container">
             <div class="Ateez">
                 <a href="Ateez.html">
@@ -73,33 +76,15 @@
     </header>
     <div>
         <div class="middle">
-            <h1>POPULAR ITEMS</h1>
-            <div class="item">
-                <a href="">
-                    <img src="space.png" alt="fill out space" width="275">
-                        <p>ITEM 1</p>
-                        <p>-- kr</p>
-                </a>
-                <a href="">
-                    <img src="space.png" alt="fill out space" width="275">
-                        <p>ITEM 2</p>
-                        <p>-- kr</p>
-                </a>
-                <a href="">
-                    <img src="space.png" alt="fill out space" width="275">
-                        <p>ITEM 3</p>
-                        <p>-- kr</p>
-                </a>
-                <a href="">
-                    <img src="space.png" alt="fill out space" width="275">
-                        <p>ITEM 4</p>
-                        <p>-- kr</p>
-                </a>
-                <a href="">
-                    <img src="space.png" alt="fill out space" width="275">
-                        <p>ITEM 5</p>
-                        <p>-- kr</p>
-                </a>
+            <div class="changePicture">
+                <img src="Left.png" onClick="changePicture('-')" width="100" height="100">
+            </div>
+            <div class="pictures">
+                <img id="picture" width="700">
+                <p id="converTitle"></p>
+            </div>
+            <div class="changePicture">
+                <img src="Right.png" onClick="changePicture('+')" width="100" height="100">            
             </div>
         </div>
     </div>
@@ -117,4 +102,5 @@
         </div>
     </div>
 </body>
+
 </html>
