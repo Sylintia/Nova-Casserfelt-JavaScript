@@ -2,6 +2,7 @@ let covers = ["R.png", "FeverEpilogue.jpg", "GoLive.png", "FeverPart2.jpg", "But
 
 let picture = document.getElementById("picture");
 let currentIndex = 0;
+let timeoutId = 0;
 
 function changePicture(direction) {
   if (direction == "+") {
@@ -18,9 +19,14 @@ function changePicture(direction) {
   }
   picture.src = covers[currentIndex];
 
-   setTimeout(() => {
+   timeoutId = setTimeout(() => {
      changePicture("+");
    }, 5000);
+}
+
+function changePictureClick(direction) {
+  clearTimeout(timeoutId);
+  changePicture(direction);
 }
 
 changePicture();
